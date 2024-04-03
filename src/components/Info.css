@@ -1,0 +1,85 @@
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  margin-top: 30px;
+  background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg");
+  height: 100vh;
+  background-size: cover;
+  border: 3px solid  #FED56B;
+  border-radius: 14px;
+  box-shadow: 5px 5px 7px #FED56B ;
+  width: 300px;
+  height: 300px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+
+.InfoContainer:hover {
+  transform: scale(1.1);
+}
+
+.InfoCityName {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+
+.InfoTemperatureContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.Temperature {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.TemperatureIcon {
+  font-size: 24px;
+  color: white;
+}
+
+.WeatherDescriptionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.WeatherDescriptionContainer img{
+  width: 50px;
+}
+
+.WeatherDescription {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  text-transform: capitalize;
+}
+
+.HumidityContainer {
+    display: flex;
+    align-items: center;
+}
+
+.Humidity {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.HumidityIcon {
+    font-size: 24px;
+    color: white;
+}
+
+
+@media(max-width:700px) {
+  .InfoContainer{
+    margin-top: 20px;
+  }
+}

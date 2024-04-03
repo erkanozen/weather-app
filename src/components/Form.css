@@ -1,0 +1,49 @@
+.Form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.weather-input {
+  
+  text-align: center;
+  width: 300px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #FED56B;
+  box-shadow: 2px 2px 4px #FED56B ;
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  font-size:20px ;
+}
+.weather-input::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.weather-button {
+  background-color: #FED56B;
+  color: #AD6F43;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+  box-shadow: 5px 5px 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.weather-button:hover {
+  color: #FED56B ;
+  background-color: #AD6F43;
+}
